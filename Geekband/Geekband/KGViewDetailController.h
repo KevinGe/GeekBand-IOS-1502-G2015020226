@@ -1,8 +1,8 @@
 //
-//  ViewController.m
+//  KGViewDetailController.h
 //  Geekband
 //
-//  Created by sleepinge on 15/11/26.
+//  Created by sleepinge on 15/11/30.
 //  Copyright © 2015年 sleepinge. All rights reserved.
 //
 
@@ -17,3 +17,4 @@
 @property (nonatomic, copy) NSArray *commentArrary;
 
 @end
+

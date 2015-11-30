@@ -9,12 +9,54 @@
 /* Begin PBXBuildFile section */
 		F63BFAE11C06D78900586940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F63BFAE01C06D78900586940 /* main.m */; };
 		F63BFAE41C06D78900586940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F63BFAE31C06D78900586940 /* AppDelegate.m */; };
-		F63BFAE71C06D78900586940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63BFAE61C06D78900586940 /* ViewController.m */; };
 		F63BFAEA1C06D78900586940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63BFAE81C06D78900586940 /* Main.storyboard */; };
 		F63BFAEC1C06D78900586940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63BFAEB1C06D78900586940 /* Assets.xcassets */; };
 		F63BFAEF1C06D78900586940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63BFAED1C06D78900586940 /* LaunchScreen.storyboard */; };
 		F63BFAFA1C06D78900586940 /* GeekbandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63BFAF91C06D78900586940 /* GeekbandTests.m */; };
 		F63BFB051C06D78900586940 /* GeekbandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63BFB041C06D78900586940 /* GeekbandUITests.m */; };
+		F67D44AC1C0850B300584B92 /* KGLoginAndRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D44AB1C0850B300584B92 /* KGLoginAndRegisterViewController.m */; };
+		F67D44B01C08514000584B92 /* KGRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D44AF1C08514000584B92 /* KGRegisterViewController.m */; };
+		F67D44B31C0851B000584B92 /* KGGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D44B21C0851B000584B92 /* KGGlobal.m */; };
+		F6FEA5231C0C1A8D007F1E51 /* KGHeadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5221C0C1A8D007F1E51 /* KGHeadImageViewController.m */; };
+		F6FEA5261C0C1ABA007F1E51 /* KGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5251C0C1ABA007F1E51 /* KGHomePageViewController.m */; };
+		F6FEA5281C0C1AD0007F1E51 /* KGMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5271C0C1AD0007F1E51 /* KGMyViewController.m */; };
+		F6FEA52C1C0C1AF9007F1E51 /* KGNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA52B1C0C1AF9007F1E51 /* KGNickNameViewController.m */; };
+		F6FEA52E1C0C1B40007F1E51 /* KGPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA52D1C0C1B40007F1E51 /* KGPublishViewController.m */; };
+		F6FEA5321C0C1B67007F1E51 /* KGSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5311C0C1B67007F1E51 /* KGSquareViewController.m */; };
+		F6FEA5351C0C1B91007F1E51 /* KGViewDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5341C0C1B91007F1E51 /* KGViewDetailController.m */; };
+		F6FEA5381C0C2414007F1E51 /* KGUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5371C0C2414007F1E51 /* KGUserModel.m */; };
+		F6FEA53B1C0C24F2007F1E51 /* KGPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA53A1C0C24F2007F1E51 /* KGPictureModel.m */; };
+		F6FEA53E1C0C25B4007F1E51 /* KGViewDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA53D1C0C25B4007F1E51 /* KGViewDetailModel.m */; };
+		F6FEA5411C0C26AD007F1E51 /* KGLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5401C0C26AD007F1E51 /* KGLocationModel.m */; };
+		F6FEA5441C0C26EE007F1E51 /* KGPublishModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5431C0C26EE007F1E51 /* KGPublishModel.m */; };
+		F6FEA5471C0C2724007F1E51 /* KGSquareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5461C0C2724007F1E51 /* KGSquareModel.m */; };
+		F6FEA54A1C0C28B9007F1E51 /* KGLocationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5491C0C28B9007F1E51 /* KGLocationParser.m */; };
+		F6FEA54D1C0C28E8007F1E51 /* KGLoginRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA54C1C0C28E8007F1E51 /* KGLoginRequestParser.m */; };
+		F6FEA5501C0C2988007F1E51 /* KGPublishRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA54F1C0C2988007F1E51 /* KGPublishRequestParser.m */; };
+		F6FEA5531C0C2BEE007F1E51 /* KGRegisterRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5521C0C2BEE007F1E51 /* KGRegisterRequestParser.m */; };
+		F6FEA5561C0C2C59007F1E51 /* KGSquareRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5551C0C2C59007F1E51 /* KGSquareRequestParser.m */; };
+		F6FEA5591C0C2C8E007F1E51 /* KGViewDetailRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5581C0C2C8E007F1E51 /* KGViewDetailRequestParser.m */; };
+		F6FEA55C1C0C2DEB007F1E51 /* KGEditImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA55B1C0C2DEB007F1E51 /* KGEditImageRequest.m */; };
+		F6FEA55F1C0C2F26007F1E51 /* KGEditNickNameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA55E1C0C2F26007F1E51 /* KGEditNickNameRequest.m */; };
+		F6FEA5621C0C2F90007F1E51 /* KGGetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5611C0C2F90007F1E51 /* KGGetImage.m */; };
+		F6FEA5641C0C300C007F1E51 /* KGLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5631C0C300C007F1E51 /* KGLoginRequest.m */; };
+		F6FEA5681C0C30B8007F1E51 /* KGPublishRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5671C0C30B8007F1E51 /* KGPublishRequest.m */; };
+		F6FEA56B1C0C30EF007F1E51 /* KGRegisterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA56A1C0C30EE007F1E51 /* KGRegisterRequest.m */; };
+		F6FEA56E1C0C311E007F1E51 /* KGSquareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA56D1C0C311E007F1E51 /* KGSquareRequest.m */; };
+		F6FEA5711C0C3165007F1E51 /* KGViewDetailRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5701C0C3165007F1E51 /* KGViewDetailRequest.m */; };
+		F6FEA5741C0C319C007F1E51 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5731C0C319C007F1E51 /* BLMultipartForm.m */; };
+		F6FEA5761C0C31F7007F1E51 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA5751C0C31F7007F1E51 /* images.xcassets */; };
+		F6FEA5781C0C323B007F1E51 /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA5771C0C323B007F1E51 /* Main.xcassets */; };
+		F6FEA57D1C0C3290007F1E51 /* KGCommentListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA57C1C0C3290007F1E51 /* KGCommentListCell.m */; };
+		F6FEA5801C0C32C9007F1E51 /* KGPublishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA57F1C0C32C9007F1E51 /* KGPublishCell.m */; };
+		F6FEA5831C0C32E9007F1E51 /* KGSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5821C0C32E9007F1E51 /* KGSquareCell.m */; };
+		F6FEA5861C0C3302007F1E51 /* KGSquareCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEA5851C0C3302007F1E51 /* KGSquareCollectionCell.m */; };
+		F6FEA5881C0C3492007F1E51 /* KGPublishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA5871C0C3492007F1E51 /* KGPublishCell.xib */; };
+		F6FEA58E1C0C34CC007F1E51 /* KGLoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA5891C0C34CC007F1E51 /* KGLoginAndRegister.storyboard */; };
+		F6FEA58F1C0C34CC007F1E51 /* KGMy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA58A1C0C34CC007F1E51 /* KGMy.storyboard */; };
+		F6FEA5901C0C34CC007F1E51 /* KGPublish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA58B1C0C34CC007F1E51 /* KGPublish.storyboard */; };
+		F6FEA5911C0C34CC007F1E51 /* KGSquare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA58C1C0C34CC007F1E51 /* KGSquare.storyboard */; };
+		F6FEA5921C0C34CC007F1E51 /* KGViewDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FEA58D1C0C34CC007F1E51 /* KGViewDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +81,6 @@
 		F63BFAE01C06D78900586940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F63BFAE21C06D78900586940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F63BFAE31C06D78900586940 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F63BFAE51C06D78900586940 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F63BFAE61C06D78900586940 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F63BFAE91C06D78900586940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F63BFAEB1C06D78900586940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63BFAEE1C06D78900586940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +91,84 @@
 		F63BFB001C06D78900586940 /* GeekbandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeekbandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63BFB041C06D78900586940 /* GeekbandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeekbandUITests.m; sourceTree = "<group>"; };
 		F63BFB061C06D78900586940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67D44AB1C0850B300584B92 /* KGLoginAndRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLoginAndRegisterViewController.m; sourceTree = "<group>"; };
+		F67D44AD1C0850E100584B92 /* KGLoginAndRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGLoginAndRegisterViewController.h; sourceTree = "<group>"; };
+		F67D44AE1C08513400584B92 /* KGRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGRegisterViewController.h; sourceTree = "<group>"; };
+		F67D44AF1C08514000584B92 /* KGRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGRegisterViewController.m; sourceTree = "<group>"; };
+		F67D44B21C0851B000584B92 /* KGGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGGlobal.m; sourceTree = "<group>"; };
+		F67D44B41C0851C200584B92 /* KGGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGGlobal.h; sourceTree = "<group>"; };
+		F6FEA5211C0C1A7E007F1E51 /* KGHeadImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGHeadImageViewController.h; sourceTree = "<group>"; };
+		F6FEA5221C0C1A8D007F1E51 /* KGHeadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHeadImageViewController.m; sourceTree = "<group>"; };
+		F6FEA5241C0C1AAF007F1E51 /* KGHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGHomePageViewController.h; sourceTree = "<group>"; };
+		F6FEA5251C0C1ABA007F1E51 /* KGHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHomePageViewController.m; sourceTree = "<group>"; };
+		F6FEA5271C0C1AD0007F1E51 /* KGMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMyViewController.m; sourceTree = "<group>"; };
+		F6FEA5291C0C1ADA007F1E51 /* KGMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGMyViewController.h; sourceTree = "<group>"; };
+		F6FEA52A1C0C1AEE007F1E51 /* KGNickNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGNickNameViewController.h; sourceTree = "<group>"; };
+		F6FEA52B1C0C1AF9007F1E51 /* KGNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNickNameViewController.m; sourceTree = "<group>"; };
+		F6FEA52D1C0C1B40007F1E51 /* KGPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPublishViewController.m; sourceTree = "<group>"; };
+		F6FEA52F1C0C1B47007F1E51 /* KGPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGPublishViewController.h; sourceTree = "<group>"; };
+		F6FEA5301C0C1B5C007F1E51 /* KGSquareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSquareViewController.h; sourceTree = "<group>"; };
+		F6FEA5311C0C1B67007F1E51 /* KGSquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSquareViewController.m; sourceTree = "<group>"; };
+		F6FEA5331C0C1B86007F1E51 /* KGViewDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGViewDetailController.h; sourceTree = "<group>"; };
+		F6FEA5341C0C1B91007F1E51 /* KGViewDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGViewDetailController.m; sourceTree = "<group>"; };
+		F6FEA5361C0C2409007F1E51 /* KGUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGUserModel.h; sourceTree = "<group>"; };
+		F6FEA5371C0C2414007F1E51 /* KGUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGUserModel.m; sourceTree = "<group>"; };
+		F6FEA5391C0C24E8007F1E51 /* KGPictureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGPictureModel.h; sourceTree = "<group>"; };
+		F6FEA53A1C0C24F2007F1E51 /* KGPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPictureModel.m; sourceTree = "<group>"; };
+		F6FEA53C1C0C25AA007F1E51 /* KGViewDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGViewDetailModel.h; sourceTree = "<group>"; };
+		F6FEA53D1C0C25B4007F1E51 /* KGViewDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGViewDetailModel.m; sourceTree = "<group>"; };
+		F6FEA53F1C0C26A3007F1E51 /* KGLocationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGLocationModel.h; sourceTree = "<group>"; };
+		F6FEA5401C0C26AD007F1E51 /* KGLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLocationModel.m; sourceTree = "<group>"; };
+		F6FEA5421C0C26DE007F1E51 /* KGPublishModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGPublishModel.h; sourceTree = "<group>"; wrapsLines = 0; };
+		F6FEA5431C0C26EE007F1E51 /* KGPublishModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPublishModel.m; sourceTree = "<group>"; };
+		F6FEA5451C0C2719007F1E51 /* KGSquareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSquareModel.h; sourceTree = "<group>"; };
+		F6FEA5461C0C2724007F1E51 /* KGSquareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSquareModel.m; sourceTree = "<group>"; };
+		F6FEA5481C0C28AD007F1E51 /* KGLocationParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGLocationParser.h; sourceTree = "<group>"; };
+		F6FEA5491C0C28B9007F1E51 /* KGLocationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLocationParser.m; sourceTree = "<group>"; };
+		F6FEA54B1C0C28DF007F1E51 /* KGLoginRequestParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGLoginRequestParser.h; sourceTree = "<group>"; };
+		F6FEA54C1C0C28E8007F1E51 /* KGLoginRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLoginRequestParser.m; sourceTree = "<group>"; };
+		F6FEA54E1C0C297C007F1E51 /* KGPublishRequestParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGPublishRequestParser.h; sourceTree = "<group>"; };
+		F6FEA54F1C0C2988007F1E51 /* KGPublishRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPublishRequestParser.m; sourceTree = "<group>"; };
+		F6FEA5511C0C2BE2007F1E51 /* KGRegisterRequestParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGRegisterRequestParser.h; sourceTree = "<group>"; };
+		F6FEA5521C0C2BEE007F1E51 /* KGRegisterRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGRegisterRequestParser.m; sourceTree = "<group>"; };
+		F6FEA5541C0C2C4E007F1E51 /* KGSquareRequestParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSquareRequestParser.h; sourceTree = "<group>"; };
+		F6FEA5551C0C2C59007F1E51 /* KGSquareRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSquareRequestParser.m; sourceTree = "<group>"; };
+		F6FEA5571C0C2C84007F1E51 /* KGViewDetailRequestParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGViewDetailRequestParser.h; sourceTree = "<group>"; };
+		F6FEA5581C0C2C8E007F1E51 /* KGViewDetailRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGViewDetailRequestParser.m; sourceTree = "<group>"; };
+		F6FEA55A1C0C2DE1007F1E51 /* KGEditImageRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGEditImageRequest.h; sourceTree = "<group>"; };
+		F6FEA55B1C0C2DEB007F1E51 /* KGEditImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGEditImageRequest.m; sourceTree = "<group>"; };
+		F6FEA55D1C0C2F1B007F1E51 /* KGEditNickNameRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGEditNickNameRequest.h; sourceTree = "<group>"; };
+		F6FEA55E1C0C2F26007F1E51 /* KGEditNickNameRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGEditNickNameRequest.m; sourceTree = "<group>"; };
+		F6FEA5601C0C2F84007F1E51 /* KGGetImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGGetImage.h; sourceTree = "<group>"; };
+		F6FEA5611C0C2F90007F1E51 /* KGGetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGGetImage.m; sourceTree = "<group>"; };
+		F6FEA5631C0C300C007F1E51 /* KGLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLoginRequest.m; sourceTree = "<group>"; };
+		F6FEA5651C0C3015007F1E51 /* KGLoginRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGLoginRequest.h; sourceTree = "<group>"; };
+		F6FEA5661C0C30AE007F1E51 /* KGPublishRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGPublishRequest.h; sourceTree = "<group>"; };
+		F6FEA5671C0C30B8007F1E51 /* KGPublishRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPublishRequest.m; sourceTree = "<group>"; };
+		F6FEA5691C0C30E4007F1E51 /* KGRegisterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGRegisterRequest.h; sourceTree = "<group>"; };
+		F6FEA56A1C0C30EE007F1E51 /* KGRegisterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGRegisterRequest.m; sourceTree = "<group>"; };
+		F6FEA56C1C0C3115007F1E51 /* KGSquareRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSquareRequest.h; sourceTree = "<group>"; };
+		F6FEA56D1C0C311E007F1E51 /* KGSquareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSquareRequest.m; sourceTree = "<group>"; };
+		F6FEA56F1C0C314E007F1E51 /* KGViewDetailRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGViewDetailRequest.h; sourceTree = "<group>"; };
+		F6FEA5701C0C3165007F1E51 /* KGViewDetailRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGViewDetailRequest.m; sourceTree = "<group>"; };
+		F6FEA5721C0C3192007F1E51 /* BLMultipartForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
+		F6FEA5731C0C319C007F1E51 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
+		F6FEA5751C0C31F7007F1E51 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		F6FEA5771C0C323B007F1E51 /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
+		F6FEA57B1C0C3280007F1E51 /* KGCommentListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGCommentListCell.h; sourceTree = "<group>"; };
+		F6FEA57C1C0C3290007F1E51 /* KGCommentListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCommentListCell.m; sourceTree = "<group>"; };
+		F6FEA57E1C0C32BE007F1E51 /* KGPublishCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGPublishCell.h; sourceTree = "<group>"; };
+		F6FEA57F1C0C32C9007F1E51 /* KGPublishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPublishCell.m; sourceTree = "<group>"; };
+		F6FEA5811C0C32DB007F1E51 /* KGSquareCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSquareCell.h; sourceTree = "<group>"; };
+		F6FEA5821C0C32E9007F1E51 /* KGSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSquareCell.m; sourceTree = "<group>"; };
+		F6FEA5841C0C32F8007F1E51 /* KGSquareCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGSquareCollectionCell.h; sourceTree = "<group>"; };
+		F6FEA5851C0C3302007F1E51 /* KGSquareCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGSquareCollectionCell.m; sourceTree = "<group>"; };
+		F6FEA5871C0C3492007F1E51 /* KGPublishCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGPublishCell.xib; sourceTree = "<group>"; };
+		F6FEA5891C0C34CC007F1E51 /* KGLoginAndRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KGLoginAndRegister.storyboard; sourceTree = "<group>"; };
+		F6FEA58A1C0C34CC007F1E51 /* KGMy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KGMy.storyboard; sourceTree = "<group>"; };
+		F6FEA58B1C0C34CC007F1E51 /* KGPublish.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KGPublish.storyboard; sourceTree = "<group>"; };
+		F6FEA58C1C0C34CC007F1E51 /* KGSquare.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KGSquare.storyboard; sourceTree = "<group>"; };
+		F6FEA58D1C0C34CC007F1E51 /* KGViewDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KGViewDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +219,13 @@
 		F63BFADE1C06D78900586940 /* Geekband */ = {
 			isa = PBXGroup;
 			children = (
-				F63BFAE21C06D78900586940 /* AppDelegate.h */,
-				F63BFAE31C06D78900586940 /* AppDelegate.m */,
-				F63BFAE51C06D78900586940 /* ViewController.h */,
-				F63BFAE61C06D78900586940 /* ViewController.m */,
+				F67D44B71C08536200584B92 /* Network */,
+				F67D44B61C08535A00584B92 /* Resources */,
+				F67D44B51C08534B00584B92 /* Models */,
+				F67D44B11C08518000584B92 /* Globals */,
+				F67D44A31C0843E900584B92 /* App */,
+				F67D44A41C08440700584B92 /* Controllers */,
+				F67D44A51C08441D00584B92 /* Views */,
 				F63BFAE81C06D78900586940 /* Main.storyboard */,
 				F63BFAEB1C06D78900586940 /* Assets.xcassets */,
 				F63BFAED1C06D78900586940 /* LaunchScreen.storyboard */,
@@ -138,6 +259,239 @@
 				F63BFB061C06D78900586940 /* Info.plist */,
 			);
 			path = GeekbandUITests;
+			sourceTree = "<group>";
+		};
+		F67D44A31C0843E900584B92 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F63BFAE31C06D78900586940 /* AppDelegate.m */,
+				F63BFAE21C06D78900586940 /* AppDelegate.h */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		F67D44A41C08440700584B92 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F67D44AA1C084B6400584B92 /* Login */,
+				F67D44A91C084B6100584B92 /* My */,
+				F67D44A61C084B5600584B92 /* Square */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F67D44A51C08441D00584B92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA57A1C0C3261007F1E51 /* StoryBoard */,
+				F6FEA5791C0C3255007F1E51 /* Cell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F67D44A61C084B5600584B92 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				F67D44BC1C08558600584B92 /* ViewDetial */,
+				F6FEA52D1C0C1B40007F1E51 /* KGPublishViewController.m */,
+				F6FEA52F1C0C1B47007F1E51 /* KGPublishViewController.h */,
+				F6FEA5301C0C1B5C007F1E51 /* KGSquareViewController.h */,
+				F6FEA5311C0C1B67007F1E51 /* KGSquareViewController.m */,
+			);
+			name = Square;
+			sourceTree = "<group>";
+		};
+		F67D44A91C084B6100584B92 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5211C0C1A7E007F1E51 /* KGHeadImageViewController.h */,
+				F6FEA5221C0C1A8D007F1E51 /* KGHeadImageViewController.m */,
+				F6FEA5241C0C1AAF007F1E51 /* KGHomePageViewController.h */,
+				F6FEA5251C0C1ABA007F1E51 /* KGHomePageViewController.m */,
+				F6FEA5271C0C1AD0007F1E51 /* KGMyViewController.m */,
+				F6FEA5291C0C1ADA007F1E51 /* KGMyViewController.h */,
+				F6FEA52A1C0C1AEE007F1E51 /* KGNickNameViewController.h */,
+				F6FEA52B1C0C1AF9007F1E51 /* KGNickNameViewController.m */,
+			);
+			name = My;
+			sourceTree = "<group>";
+		};
+		F67D44AA1C084B6400584B92 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F67D44AB1C0850B300584B92 /* KGLoginAndRegisterViewController.m */,
+				F67D44AD1C0850E100584B92 /* KGLoginAndRegisterViewController.h */,
+				F67D44AE1C08513400584B92 /* KGRegisterViewController.h */,
+				F67D44AF1C08514000584B92 /* KGRegisterViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F67D44B11C08518000584B92 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				F67D44B21C0851B000584B92 /* KGGlobal.m */,
+				F67D44B41C0851C200584B92 /* KGGlobal.h */,
+			);
+			name = Globals;
+			sourceTree = "<group>";
+		};
+		F67D44B51C08534B00584B92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F67D44BA1C08556300584B92 /* Picture */,
+				F67D44B91C08554E00584B92 /* Square */,
+				F67D44B81C08554900584B92 /* Login */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F67D44B61C08535A00584B92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5751C0C31F7007F1E51 /* images.xcassets */,
+				F6FEA5771C0C323B007F1E51 /* Main.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F67D44B71C08536200584B92 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F67D44BF1C08564D00584B92 /* Utilities */,
+				F67D44BE1C08563900584B92 /* Requests */,
+				F67D44BD1C08563200584B92 /* Parsers */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F67D44B81C08554900584B92 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5361C0C2409007F1E51 /* KGUserModel.h */,
+				F6FEA5371C0C2414007F1E51 /* KGUserModel.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F67D44B91C08554E00584B92 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				F67D44BB1C08556C00584B92 /* ViewDetial */,
+				F6FEA53F1C0C26A3007F1E51 /* KGLocationModel.h */,
+				F6FEA5401C0C26AD007F1E51 /* KGLocationModel.m */,
+				F6FEA5421C0C26DE007F1E51 /* KGPublishModel.h */,
+				F6FEA5431C0C26EE007F1E51 /* KGPublishModel.m */,
+				F6FEA5451C0C2719007F1E51 /* KGSquareModel.h */,
+				F6FEA5461C0C2724007F1E51 /* KGSquareModel.m */,
+			);
+			name = Square;
+			sourceTree = "<group>";
+		};
+		F67D44BA1C08556300584B92 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5391C0C24E8007F1E51 /* KGPictureModel.h */,
+				F6FEA53A1C0C24F2007F1E51 /* KGPictureModel.m */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+		F67D44BB1C08556C00584B92 /* ViewDetial */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA53C1C0C25AA007F1E51 /* KGViewDetailModel.h */,
+				F6FEA53D1C0C25B4007F1E51 /* KGViewDetailModel.m */,
+			);
+			name = ViewDetial;
+			sourceTree = "<group>";
+		};
+		F67D44BC1C08558600584B92 /* ViewDetial */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5331C0C1B86007F1E51 /* KGViewDetailController.h */,
+				F6FEA5341C0C1B91007F1E51 /* KGViewDetailController.m */,
+			);
+			name = ViewDetial;
+			sourceTree = "<group>";
+		};
+		F67D44BD1C08563200584B92 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5481C0C28AD007F1E51 /* KGLocationParser.h */,
+				F6FEA5491C0C28B9007F1E51 /* KGLocationParser.m */,
+				F6FEA54B1C0C28DF007F1E51 /* KGLoginRequestParser.h */,
+				F6FEA54C1C0C28E8007F1E51 /* KGLoginRequestParser.m */,
+				F6FEA54E1C0C297C007F1E51 /* KGPublishRequestParser.h */,
+				F6FEA54F1C0C2988007F1E51 /* KGPublishRequestParser.m */,
+				F6FEA5511C0C2BE2007F1E51 /* KGRegisterRequestParser.h */,
+				F6FEA5521C0C2BEE007F1E51 /* KGRegisterRequestParser.m */,
+				F6FEA5541C0C2C4E007F1E51 /* KGSquareRequestParser.h */,
+				F6FEA5551C0C2C59007F1E51 /* KGSquareRequestParser.m */,
+				F6FEA5571C0C2C84007F1E51 /* KGViewDetailRequestParser.h */,
+				F6FEA5581C0C2C8E007F1E51 /* KGViewDetailRequestParser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		F67D44BE1C08563900584B92 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA55A1C0C2DE1007F1E51 /* KGEditImageRequest.h */,
+				F6FEA55B1C0C2DEB007F1E51 /* KGEditImageRequest.m */,
+				F6FEA55D1C0C2F1B007F1E51 /* KGEditNickNameRequest.h */,
+				F6FEA55E1C0C2F26007F1E51 /* KGEditNickNameRequest.m */,
+				F6FEA5601C0C2F84007F1E51 /* KGGetImage.h */,
+				F6FEA5611C0C2F90007F1E51 /* KGGetImage.m */,
+				F6FEA5631C0C300C007F1E51 /* KGLoginRequest.m */,
+				F6FEA5651C0C3015007F1E51 /* KGLoginRequest.h */,
+				F6FEA5661C0C30AE007F1E51 /* KGPublishRequest.h */,
+				F6FEA5671C0C30B8007F1E51 /* KGPublishRequest.m */,
+				F6FEA5691C0C30E4007F1E51 /* KGRegisterRequest.h */,
+				F6FEA56A1C0C30EE007F1E51 /* KGRegisterRequest.m */,
+				F6FEA56C1C0C3115007F1E51 /* KGSquareRequest.h */,
+				F6FEA56D1C0C311E007F1E51 /* KGSquareRequest.m */,
+				F6FEA56F1C0C314E007F1E51 /* KGViewDetailRequest.h */,
+				F6FEA5701C0C3165007F1E51 /* KGViewDetailRequest.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		F67D44BF1C08564D00584B92 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5721C0C3192007F1E51 /* BLMultipartForm.h */,
+				F6FEA5731C0C319C007F1E51 /* BLMultipartForm.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F6FEA5791C0C3255007F1E51 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5871C0C3492007F1E51 /* KGPublishCell.xib */,
+				F6FEA57B1C0C3280007F1E51 /* KGCommentListCell.h */,
+				F6FEA57C1C0C3290007F1E51 /* KGCommentListCell.m */,
+				F6FEA57E1C0C32BE007F1E51 /* KGPublishCell.h */,
+				F6FEA57F1C0C32C9007F1E51 /* KGPublishCell.m */,
+				F6FEA5811C0C32DB007F1E51 /* KGSquareCell.h */,
+				F6FEA5821C0C32E9007F1E51 /* KGSquareCell.m */,
+				F6FEA5841C0C32F8007F1E51 /* KGSquareCollectionCell.h */,
+				F6FEA5851C0C3302007F1E51 /* KGSquareCollectionCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		F6FEA57A1C0C3261007F1E51 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEA5891C0C34CC007F1E51 /* KGLoginAndRegister.storyboard */,
+				F6FEA58A1C0C34CC007F1E51 /* KGMy.storyboard */,
+				F6FEA58B1C0C34CC007F1E51 /* KGPublish.storyboard */,
+				F6FEA58C1C0C34CC007F1E51 /* KGSquare.storyboard */,
+				F6FEA58D1C0C34CC007F1E51 /* KGViewDetail.storyboard */,
+			);
+			name = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +597,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FEA5781C0C323B007F1E51 /* Main.xcassets in Resources */,
+				F6FEA5881C0C3492007F1E51 /* KGPublishCell.xib in Resources */,
 				F63BFAEF1C06D78900586940 /* LaunchScreen.storyboard in Resources */,
+				F6FEA58E1C0C34CC007F1E51 /* KGLoginAndRegister.storyboard in Resources */,
+				F6FEA5761C0C31F7007F1E51 /* images.xcassets in Resources */,
+				F6FEA5911C0C34CC007F1E51 /* KGSquare.storyboard in Resources */,
+				F6FEA5901C0C34CC007F1E51 /* KGPublish.storyboard in Resources */,
 				F63BFAEC1C06D78900586940 /* Assets.xcassets in Resources */,
+				F6FEA58F1C0C34CC007F1E51 /* KGMy.storyboard in Resources */,
+				F6FEA5921C0C34CC007F1E51 /* KGViewDetail.storyboard in Resources */,
 				F63BFAEA1C06D78900586940 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +632,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63BFAE71C06D78900586940 /* ViewController.m in Sources */,
+				F6FEA56E1C0C311E007F1E51 /* KGSquareRequest.m in Sources */,
+				F6FEA5321C0C1B67007F1E51 /* KGSquareViewController.m in Sources */,
+				F6FEA55F1C0C2F26007F1E51 /* KGEditNickNameRequest.m in Sources */,
+				F6FEA5741C0C319C007F1E51 /* BLMultipartForm.m in Sources */,
+				F6FEA5531C0C2BEE007F1E51 /* KGRegisterRequestParser.m in Sources */,
+				F6FEA53E1C0C25B4007F1E51 /* KGViewDetailModel.m in Sources */,
+				F67D44B01C08514000584B92 /* KGRegisterViewController.m in Sources */,
+				F6FEA5801C0C32C9007F1E51 /* KGPublishCell.m in Sources */,
+				F6FEA52E1C0C1B40007F1E51 /* KGPublishViewController.m in Sources */,
+				F6FEA5231C0C1A8D007F1E51 /* KGHeadImageViewController.m in Sources */,
+				F6FEA5641C0C300C007F1E51 /* KGLoginRequest.m in Sources */,
+				F67D44B31C0851B000584B92 /* KGGlobal.m in Sources */,
+				F6FEA5381C0C2414007F1E51 /* KGUserModel.m in Sources */,
+				F6FEA53B1C0C24F2007F1E51 /* KGPictureModel.m in Sources */,
+				F6FEA5681C0C30B8007F1E51 /* KGPublishRequest.m in Sources */,
+				F6FEA5411C0C26AD007F1E51 /* KGLocationModel.m in Sources */,
+				F6FEA52C1C0C1AF9007F1E51 /* KGNickNameViewController.m in Sources */,
+				F6FEA56B1C0C30EF007F1E51 /* KGRegisterRequest.m in Sources */,
+				F6FEA5261C0C1ABA007F1E51 /* KGHomePageViewController.m in Sources */,
+				F6FEA5591C0C2C8E007F1E51 /* KGViewDetailRequestParser.m in Sources */,
+				F6FEA5281C0C1AD0007F1E51 /* KGMyViewController.m in Sources */,
 				F63BFAE41C06D78900586940 /* AppDelegate.m in Sources */,
+				F6FEA5351C0C1B91007F1E51 /* KGViewDetailController.m in Sources */,
 				F63BFAE11C06D78900586940 /* main.m in Sources */,
+				F6FEA55C1C0C2DEB007F1E51 /* KGEditImageRequest.m in Sources */,
+				F6FEA5561C0C2C59007F1E51 /* KGSquareRequestParser.m in Sources */,
+				F67D44AC1C0850B300584B92 /* KGLoginAndRegisterViewController.m in Sources */,
+				F6FEA5711C0C3165007F1E51 /* KGViewDetailRequest.m in Sources */,
+				F6FEA5831C0C32E9007F1E51 /* KGSquareCell.m in Sources */,
+				F6FEA57D1C0C3290007F1E51 /* KGCommentListCell.m in Sources */,
+				F6FEA5471C0C2724007F1E51 /* KGSquareModel.m in Sources */,
+				F6FEA54A1C0C28B9007F1E51 /* KGLocationParser.m in Sources */,
+				F6FEA5621C0C2F90007F1E51 /* KGGetImage.m in Sources */,
+				F6FEA5501C0C2988007F1E51 /* KGPublishRequestParser.m in Sources */,
+				F6FEA5861C0C3302007F1E51 /* KGSquareCollectionCell.m in Sources */,
+				F6FEA54D1C0C28E8007F1E51 /* KGLoginRequestParser.m in Sources */,
+				F6FEA5441C0C26EE007F1E51 /* KGPublishModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,8 +811,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Geekband/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aa.Geekband;
+				PRODUCT_BUNDLE_IDENTIFIER = kaiyun.carestream.Geekband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,8 +823,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Geekband/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aa.Geekband;
+				PRODUCT_BUNDLE_IDENTIFIER = kaiyun.carestream.Geekband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +896,7 @@
 				F63BFB0B1C06D78900586940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F63BFB0C1C06D78900586940 /* Build configuration list for PBXNativeTarget "GeekbandTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +905,7 @@
 				F63BFB0E1C06D78900586940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F63BFB0F1C06D78900586940 /* Build configuration list for PBXNativeTarget "GeekbandUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +914,7 @@
 				F63BFB111C06D78900586940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

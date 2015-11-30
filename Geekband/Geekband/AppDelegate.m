@@ -5,8 +5,11 @@
 //  Created by sleepinge on 15/11/26.
 //  Copyright © 2015年 sleepinge. All rights reserved.
 //
-
 #import "AppDelegate.h"
+#import "KGLoginAndRegisterViewController.h"
+#import "KGMyViewController.h"
+#import "KGSquareViewController.h"
+#import "KGPublishViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,6 +17,49 @@
 
 @implementation AppDelegate
 
+- (void)loadMainViewWithController:(UIViewController *)controller {
+    // square
+    UIStoryboard *squareStoryboard = [UIStoryboard storyboardWithName:@"KGSquare" bundle:[NSBundle mainBundle]];
+    KGSquareViewController *squareVC = [squareStoryboard instantiateViewControllerWithIdentifier:@"SquareStoryboard"];
+    //    squareVC.view.backgroundColor = [UIColor redColor];
+    UINavigationController *squareNav = [[UINavigationController alloc]initWithRootViewController:squareVC];
+    squareNav.navigationBar.barTintColor = [[UIColor alloc]initWithRed:230/255.0 green:106/255.0 blue:58/255.0 alpha:1];
+    squareNav.tabBarItem.title = @"广场";
+    squareNav.tabBarItem.image = [UIImage imageNamed:@"square"];
+    
+    // my
+    UIStoryboard *myStoryboard = [UIStoryboard storyboardWithName:@"KGMy" bundle:[NSBundle mainBundle]];
+    KGMyViewController *myVC = [myStoryboard instantiateViewControllerWithIdentifier:@"MyStoryboard"];
+    myVC.tabBarItem.title = @"我的";
+    myVC.tabBarItem.image = [UIImage imageNamed:@"my"];
+    
+    self.tabBarController = [[UITabBarController alloc]init];
+    self.tabBarController.viewControllers = @[squareNav, myVC];
+    
+    [controller presentViewController:self.tabBarController animated:YES completion:nil];
+    
+    // publish
+    CGFloat viewWidth = [UIScreen mainScreen].bounds.size.width;
+    UIButton *photoButton = [[UIButton alloc]initWithFrame:CGRectMake(viewWidth/2-60, -25, 120, 50)];
+    [photoButton setImage:[UIImage imageNamed:@"publish"] forState:UIControlStateNormal];
+    [photoButton addTarget:self action:@selector(photoButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.tabBarController.tabBar addSubview:photoButton];
+}
+
+- (void)photoButtonClicked {
+    UIStoryboard *publishStoryboard = [UIStoryboard storyboardWithName:@"KGPublish" bundle:[NSBundle mainBundle]];
+    KGPublishViewController *publishVC = [publishStoryboard instantiateViewControllerWithIdentifier:@"CMJ"];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:publishVC];
+    [self.tabBarController presentViewController:nav animated:YES completion:nil];
+}
+
+- (void)loadLoginView {
+    UIStoryboard *loginStoryboard = [UIStoryboard storyboardWithName:@"KGLoginAndRegister" bundle:[NSBundle mainBundle]];
+    KGLoginAndRegisterViewController *loginController = [loginStoryboard instantiateViewControllerWithIdentifier:@"LoginStoryboard"];
+    [loginController dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma Mark App lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
