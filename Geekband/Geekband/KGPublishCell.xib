@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="JYPublishCell">
+            <rect key="frame" x="0.0" y="0.0" width="741" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="741" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiF-hn-Yyu">
+                        <rect key="frame" x="8" y="37" width="725" height="16"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZk-D7-uF7">
+                        <rect key="frame" x="8" y="8" width="725" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="XiF-hn-Yyu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="7RB-Sc-ROy"/>
+                    <constraint firstAttribute="trailing" secondItem="XiF-hn-Yyu" secondAttribute="trailing" constant="8" id="JcG-RG-Tvq"/>
+                    <constraint firstItem="sZk-D7-uF7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Rg9-2Y-CCo"/>
+                    <constraint firstAttribute="trailing" secondItem="sZk-D7-uF7" secondAttribute="trailing" constant="8" id="W3E-n1-3BJ"/>
+                    <constraint firstItem="XiF-hn-Yyu" firstAttribute="top" secondItem="sZk-D7-uF7" secondAttribute="bottom" constant="8" id="eWe-55-6oO"/>
+                    <constraint firstItem="XiF-hn-Yyu" firstAttribute="top" secondItem="sZk-D7-uF7" secondAttribute="bottom" constant="8" id="saB-UZ-GJt"/>
+                    <constraint firstItem="sZk-D7-uF7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="vXU-Fj-i4q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <accessibility key="accessibilityConfiguration" hint="" label=""/>
+            <attributedString key="userComments">
+                <fragment content="Label">
+                    <attributes>
+                        <font key="NSFont" metaFont="smallSystem"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                    </attributes>
+                </fragment>
+            </attributedString>
+            <connections>
+                <outlet property="nameLabel" destination="sZk-D7-uF7" id="gRB-JG-XK1"/>
+                <outlet property="placeLabel" destination="XiF-hn-Yyu" id="tJt-Xe-hUc"/>
+            </connections>
+            <point key="canvasLocation" x="191.5" y="224.5"/>
+        </tableViewCell>
+    </objects>
+</document>

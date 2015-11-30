@@ -6,8 +6,16 @@
 //  Copyright © 2015年 sleepinge. All rights reserved.
 //
 
-#ifndef KGSquareCell_h
-#define KGSquareCell_h
+#import <UIKit/UIKit.h>
+#import "KGSquareViewController.h"
+#import "SDWebImage/UIImageView+WebCache.h"
 
+@interface KGSquareCell : UITableViewCell<UICollectionViewDelegate, UICollectionViewDataSource>
 
-#endif /* KGSquareCell_h */
+@property (nonatomic, strong) KGSquareViewController *squareVC;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (weak, nonatomic) IBOutlet UILabel *locationLabel;
+@property (nonatomic, strong) NSArray *dataArr;
+
+@end
+

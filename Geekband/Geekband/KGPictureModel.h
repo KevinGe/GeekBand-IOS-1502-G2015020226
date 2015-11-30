@@ -6,8 +6,13 @@
 //  Copyright © 2015年 sleepinge. All rights reserved.
 //
 
-#ifndef KGPictureModel_h
-#define KGPictureModel_h
 
+#import <Foundation/Foundation.h>
 
-#endif /* KGPictureModel_h */
+@interface KGPictureModel : NSObject
+
+@property (nonatomic, strong) NSString *pic_link;
+@property (nonatomic, strong) NSString *pic_id;
+@property (nonatomic, strong) NSString *title;
+
+@end
